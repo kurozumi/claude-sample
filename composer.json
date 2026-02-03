@@ -1,0 +1,12 @@
+{
+    "name": "ec-cube/claudesample",
+    "version": "1.0.0",
+    "description": "ClaudeSampleプラグイン",
+    "type": "eccube-plugin",
+    "require": {
+        "ec-cube/plugin-installer": "^2.0"
+    },
+    "extra": {
+        "code": "ClaudeSample"
+    }
+}

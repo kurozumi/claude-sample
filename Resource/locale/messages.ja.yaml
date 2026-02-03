@@ -1,0 +1,6 @@
+plugin:
+  claude_sample:
+    admin:
+      config:
+        title: 'ClaudeSample'
+        sub_title: '設定'
