@@ -1,6 +1,17 @@
-plugin:
-  claude_sample:
-    admin:
-      config:
-        title: 'ClaudeSample'
-        sub_title: '設定'
+claude_sample:
+  admin:
+    title: 'ClaudeSample'
+    nav:
+      title: '会員グループ'
+      group_list: '会員グループ一覧'
+      group_new: '会員グループ登録'
+    group:
+      id: 'ID'
+      name: 'グループ名'
+      list_title: '会員グループ一覧'
+      edit_title: '会員グループ登録・編集'
+      back_to_list: '会員グループ一覧に戻る'
+      delete_confirm_title: 'グループを削除します'
+      delete_confirm_message: '会員グループを削除してよろしいですか？'
+    customer:
+      groups: '会員グループ'
