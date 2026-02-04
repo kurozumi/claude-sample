@@ -6,4 +6,4 @@ services:
 
   Plugin\ClaudeSample\:
     resource: '../../*'
-    exclude: '../../{Tests,Entity}'
+    exclude: '../../{Tests,Entity,Resource}'
